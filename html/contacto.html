@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Categorias </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top body-tertiary border-bottom " style="--bs-opacity: .5;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <a class="navbar-brand mundo-moto" href="index.html">
+                    <FONT COLOR="white">MUNDO</FONT>
+                    <FONT COLOR="red">MOTO</FONT>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi      bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path
+                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-1" aria-current="page" href="../index.html">
+                                <FONT COLOR="white">Inicio</FONT>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ms-auto">
+                            <a class="nav-link dropdown-toggle px-1" href="./categoria/categoria.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <FONT COLOR="white">Categotias</FONT>
+                            </a>
+                            <ul class="dropdown-menu ms-auto">
+                                <li><a class="dropdown-item px-1"
+                                        href="./categoria/categoria.html"><strong>Categorias</strong> </a></li>
+                                <li><a class="dropdown-item" href="./categoria/deportivas.html">Deportivas</a></li>
+                                <li><a class="dropdown-item" href="./categoria/adventur.html">Adventur</a></li>
+                                <li><a class="dropdown-item" href="./categoria/naked.html">Naked</a></li>
+                                <li><a class="dropdown-item" href="./categoria/cross.html">Cross</a></li>
+                                <li><a class="dropdown-item" href="./categoria/chopper.html">Chopper</a></li>
+                                <li><a class="dropdown-item" href="./categoria/scooter.html">Scooter</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-1" href="noticias.html">
+                                <FONT COLOR="white">Noticias</FONT>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-1" href="nosotrod.html">
+                                <FONT COLOR="white">Nosotros</FONT>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link ms-auto px-1" href="contacto.html">
+                                <FONT COLOR="white">Contacto</FONT>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row contacto">
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="contacto-img">
+                    <div class="img-contacto">
+                        <img src="https://i.pinimg.com/736x/6a/e0/e6/6ae0e66bbefe6840ca755ba87efdfee0.jpg"
+                            alt="Chica en moto">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-md-6 col-sm-12">
+                <div class="contacto-form">
+                    <div>
+                        <label for="name"> Ingrese su nombre </label>
+                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp">
+                    </div>
+                    <div>
+                        <label for="apellido"> Ingrese su apellido </label>
+                        <input type="apellido" class="form-control" id="apellido" aria-describedby="apellidoHelp">
+                    </div>
+                    <div>
+                        <label for="exampleInputEmail1" class="form-label">Ingrese su Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div>
+                        <label for="telefono"> Ingrese su telefono </label>
+                        <input type="telefono" class="form-control" id="exampleInputEmail1" aria-describedby="numberlHelp">
+                    </div>
+                    <div class="pt-3">
+                        <textarea  id="message" name="message" rows="4" required placeholder="Deje su mensaje"></textarea>
+                    </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerA">
+                <div class="socials">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#">
+                    <h4> Términos y Condiciones &nbsp;&nbsp;Politica de pivacidad</h4>
+                </a>
+                <h4> Copyright© 2023 &nbsp;&nbsp; Córdoba, Argentina </h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

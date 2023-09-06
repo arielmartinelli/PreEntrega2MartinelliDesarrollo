@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+* 
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(44, 43, 46, 0.987);
+}
+
+/*HEADER*/
+
+/*NAV*/
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches';
+    font-style: oblique;
+    letter-spacing: 2px;
+    font-size: 4vw;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+    color: white;
+  }
+
+.dropdown-menu{
+    background-color: rgba(27, 26, 26, 0.521);
+    border: none;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+svg{
+    color: white;
+}
+
+.navbar.border-bottom {
+    border-bottom: none !important;
+  }
+
+header img{
+    width: 6vw;
+}
+
+.dropdown-menu a{
+    font-size: x-small;
+}
+
+@media (min-width: 769px){
+    .dropdown-menu a{
+        font-size: medium;
+    }
+}
+
+nav ul{
+    font-size: 1.4vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav .nav-item a:hover{
+    background-color: red;
+    text-decoration-color: white;
+}
+
+nav ul a{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+header nav{
+    background-color: transparent;
+}
+
+.dropdown-toggle{
+    color: white;
+}
+
+.dropdown-toggle:hover{
+    color: white;
+}
+
+.dropdown-menu a:hover{
+    color: white;
+}
+
+.container-fluid{
+    margin-right: 15px;
+}
+
+.d-flex{
+    padding-left: 4vw;
+}
+
+.d-flex input{
+    border-radius: 20px;
+    width: 25vw;
+}
+
+.d-flex button{
+    border-radius: 30px;
+    border-color: rgba(128, 128, 128, 0.32);
+}
+
+nav{
+    background-color: rgba(255, 252, 252, 0.397);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    border-color: transparent; /
+  }  
+
+
+
+/*Carrusel*/
+
+.carousel{
+    margin-top: 8%;
+    margin-bottom: 0%;
+}
+
+.carousel-inner h5{
+    text-shadow: 2px 2px 2px black;
+    font-size: 2vw; 
+}
+
+.carousel-inner a{
+    text-decoration: none;
+    color: red;
+}
+
+/*ANUNCIO*/
+
+.anuncio{
+    margin-top: 1%;
+}
+
+.anuncio img{
+    width: 100%;
+}
+
+
+/*FOOTER*/
+
+
+
+.footerA{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 2%;
+    margin-top: 5%;
+    text-align: center;
+    letter-spacing: .8px;
+    background-color: rgb(0, 0, 0);
+    height: 15vw;
+}
+
+@media (min-width: 769px) {
+    .footerA {
+      margin-top: 2%;
+    }
+}
+
+.socials{
+    font-size: 3vw;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.socials a{
+    color: white;
+    padding: 4px;
+}
+
+.footerA h4{
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.footerA a{
+    color: rgb(255, 255, 255);
+}
+
+/*CATEGORIAS*/
+
+.titulo-categoria{
+    background-color: red;
+    text-align: center;
+}
+
+.titulo-categoria h3{
+    color: white;
+    padding: 1%;
+    margin: 120px 0px 60px 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(13, 0, 0);
+}
+
+.cate .card{
+    box-shadow: 5px 5px 5px  rgb(22, 2, 2);
+    width: 70%;
+    margin-bottom: 5%;
+    margin-left: 14%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cate .card img{
+    width: 90%;
+    padding-left: 7%;
+    padding-top: 5%;
+}
+
+.cate .card h5{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.cate .card .btn{
+    background-color: red;
+    border-color: red;
+    width: 25%;
+    height: 15%;
+    box-shadow: 1px 1px 4px black;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.card .btn:hover{
+    background-color: rgb(210, 80, 80);
+    border-color: rgb(210, 80, 80) ;
+}
+
+/*NOTICIAS*/
+
+.noticias .card{
+    border-radius: 1px;
+}
+
+.noticias .row{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.noticias{
+    text-align: center;
+}
+
+.noticias h6{
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.noticias .card img{
+    width: 100%;
+}
+
+.card-p6{
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.noticias a{
+    text-decoration: none;
+    color: black;
+}
+
+.noticias a:hover{
+    color: red;
+}
+
+.noticias img:hover{
+    filter: grayscale(80%);
+}
+
+/*NOSOTROS*/
+
+.contenedor-nosotros-h2{
+    text-align: center;
+    background-color: red;
+    margin-top: 20%;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-shadow: 2px 2px 4px black;
+}
+.contenedor-ustedes-h2{
+    text-align: center;
+    background-color: red;
+    margin-top: 20%;
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-right: 5%;
+    text-shadow: 2px 2px 4px black;
+}
+
+.foto-texto img{
+    width: 40%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-1{
+    margin-left: 9%;
+    margin-right: 2%;
+}
+
+.foto-texto p{
+    color: white;
+   padding-left: 6.5%;
+   padding-right: 12%;
+   font-size: 1.4vw;
+   margin-left: 2%;
+}
+
+.boton-nosotros{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.boton-nosotros button{
+    width: 42%;
+    background-color: red;
+    height: 5vw;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    margin-left: 1%;
+}
+
+@media (min-width: 769px) {
+    .boton-nosotros button {
+      font-size: 1.2vw;
+    }
+}
+
+.boton-nosotros button:hover{
+    color: red;
+    background-color: white;
+}
+
+.foto-2 img{
+    margin-right: 5%;
+}
+
+.foto-texto-ustedes p{
+    color: white;
+    width: 90%;
+    font-size: 1.4vw;
+    margin-left: 7%;
+}
+
+.foto-texto-ustedes img{
+    width: 85%;
+    margin-left: 7%;
+}
+
+/*CONTACTO*/
+
+.contacto img{
+    width: 70%;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 15%;
+}
+
+.contacto-form{
+    margin-top: 20%;
+    margin-right: 20%;
+    color: rgb(1, 0, 0);
+}
+
+.contacto-form{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+
