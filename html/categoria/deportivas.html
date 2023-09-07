@@ -1,90 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Categoria/Deportivas </title>
+    <title> Categorias </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../css/estilo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-        <a href="../../index.html" class="logo"><img src="../../img/logo.png" alt="Logo de la empresa"></a>
+        <nav class="navbar navbar-expand-lg fixed-top body-tertiary border-bottom " style="--bs-opacity: .5;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="../../img/logo.png" alt="Logo" class="d-inline-block align-text-top">
+                </a>
+                <a class="navbar-brand mundo-moto" href="index.html">
+                    <FONT COLOR="white">MUNDO</FONT>
+                    <FONT COLOR="red">MOTO</FONT>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <svg style="color: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi      bi-three-dots-vertical" viewBox="0 0 16 16">
+                        <path
+                            d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto ">
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-1" aria-current="page" href="../../index.html">
+                                <FONT COLOR="white">Inicio</FONT>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown ms-auto">
+                            <a class="nav-link dropdown-toggle px-1" href="categoria.html"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <FONT COLOR="white">Categotias</FONT>
+                            </a>
+                            <ul class="dropdown-menu ms-auto">
+                                <li><a class="dropdown-item px-1"
+                                        href="categoria.html"><strong>Categorias</strong> </a></li>
+                                <li><a class="dropdown-item" href="deportivas.html">Deportivas</a></li>
+                                <li><a class="dropdown-item" href="adventur.html">Adventur</a></li>
+                                <li><a class="dropdown-item" href="naked.html">Naked</a></li>
+                                <li><a class="dropdown-item" href="cross.html">Cross</a></li>
+                                <li><a class="dropdown-item" href="chopper.html">Chopper</a></li>
+                                <li><a class="dropdown-item" href="scooter.html">Scooter</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-1" href="../noticias.html">
+                                <FONT COLOR="white">Noticias</FONT>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link px-1" href="../nosotrod.html">
+                                <FONT COLOR="white">Nosotros</FONT>
+                            </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link ms-auto px-1" href="../contacto.html">
+                                <FONT COLOR="white">Contacto</FONT>
+                            </a>
+                        </li>
 
-        <a href="../../index.html"><h2 class="motoworld"> MUNDO <FONT COLOR="red">MOTO</FONT></h2></a>
-        
-        <div class="buscador">
-            <input type="text" placeholder="&nbsp;&nbsp;Buscar...">
-        </div>
-
-        <div class="nav">
-            <ul>
-                <li><a href="../../index.html" class="inicio"> Inicio </a></li>
-                <li><a href="categoria.html" class="categoria"> Categorias </a></li>
-                <li><a href="../noticias.html" class="noticias"> Noticias </a></li>
-                <li><a href="../nosotrod.html" class="nosotros"> Nosotros </a></li>
-                <li><a href="../contacto.html" class="contacto"> Contacto </a></li>
-            </ul>
-        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <hr>
-
     <main>
-        <div class="boxGrandeDeportiva">
-            <div class="deportivaa">
-                <div class="boxDeportiva">
-                    <h3> DEPORTIVA </h3>
-                <p>Las motos <strong>deportivas</strong> son un tipo de motocicleta diseñada principalmente para ofrecer un alto rendimiento y emociones intensas. Estas motos están diseñadas con características que priorizan la velocidad, la agilidad y la capacidad de maniobra, lo que las hace ideales para su uso en pistas de carreras.</p>
+        <div class="row contenedor-adventur">
+            <div class="adventur-des col-xl-4 col-md-12 col-sm-12">
+                <div class="categoria-cuadro  ms-4">
+                    <div class="cate-titulos">
+                        <h3> DEPORTIVAS </h3>
+                    </div>
+                    <p>Las motos deportivas son un tipo de motocicleta diseñada principalmente para ofrecer un alto rendimiento y emociones intensas. Estas motos están diseñadas con características que priorizan la velocidad, la agilidad y la capacidad de maniobra, lo que las hace ideales para su uso en pistas de carreras.</p>
                 </div>
-                <div class="inframe">
-                    <iframe width="360" height="230" src="https://www.youtube.com/embed/K3Di7FwGyqA?si=3GteWPZzQn-5PyHs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                
+            </div>
+            <div class="adventur-carac col-xl-4 col-md-12 col-sm-12">
+                <div class="categoria-cuadro">
+                    <div class="cate-titulos">
+                        <h3> CARACTERISTICAS </h3>
+                    </div>
+                    <ul class="py-2">
+                        <li>Diseño aerodinámico</li>
+                        <li>Posición de conducción inclinada</li>
+                        <li>Chasis ligero</li>
+                        <li>Suspensión ajustable</li>
+                        <li>Frenos de alto rendimiento</li>
+                        <li>Motores potentes</li>
+                        <li>Neumáticos de alto agarre</li>
+                    </ul>
                 </div>
             </div>
-            <div class="caracteristicasDeportiva">
-                <div class="boxCaracteristicasDeportiva">
-                    <h2> CARACTERISTICAS </h2>
-                    <ul>
-                        <li> Diseño aerodinámico </li>
-                        <li> Posición de conducción inclinada </li>
-                        <li> Chasis ligero </li>
-                        <li> Suspensión ajustable </li>
-                        <li> Frenos de alto rendimiento </li>
-                        <li> Motores potentes </li>
-                        <li> Neumáticos de alto agarre </li>
-                     </ul>
-                </div>
-                <img src="https://cdn.pixabay.com/photo/2018/07/05/11/27/motorcycling-3518132_640.jpg" alt="Imagen de moto deportiva">
-            </div>
-            <div class="vYdDeportiva">
-                <div class="bordeVyDdeportiva">
-                    <h3> VENTAJAS Y DESVENTAJAS</h3>
-                <p> <strong>Las ventajas de las motos deportivas:</strong> ofrecen emocionante rendimiento y aceleración, junto con agilidad en curvas y diseño atractivo. <strong>Desventajas:</strong> menos cómodas para trayectos largos, menos versátiles en tareas cotidianas. Además debido a su potencia, pueden tener un mayor riesgo en términos de seguridad.
-                    </p>
-                </div>
-                <div class="imagenDeportiva">
-                    <img src="https://www.galgo.com/wp-content/uploads/2023/05/tipos-de-motos-deportivas.jpg" alt="Imagen de moto deportiva">
+            <div class="adventur-ven col-xl-4 col-md-12 col-sm-12">
+                <div class="categoria-cuadro me-4">
+                    <div class="cate-titulos">
+                        <h3> VENTAJAS Y DESVENTAJAS </h3>
+                    </div>
+                    <p>Las ventajas de las motos deportivas: ofrecen emocionante rendimiento y aceleración, junto con agilidad en curvas y diseño atractivo. Desventajas: menos cómodas para trayectos largos, menos versátiles en tareas cotidianas. Además debido a su potencia, pueden tener un mayor riesgo en términos de seguridad.</p>
                 </div>
             </div>
         </div>
+        <div class="row ">
+            <div class="iframe-container col-xl-6 col-md-12 col-sm-12">
+                <iframe class="video" src="https://www.youtube.com/embed/K3Di7FwGyqA" title="Historia de las motos deportivas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="img-contenedor col-xl-5 col-md-12 col-sm-12">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://hawaii.kawasaki.com/Content/Images/SubBrand/2022-ninja/ninja_2.jpg" class="d-block w-100" alt="Foto de moto deportiva">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://soymotero.net/wp-content/uploads/2022/07/13-suzuki-gsx-r1000-r-2019-foto-accion-ambiente-8_0.jpg" class="d-block w-100" alt="Foto de moto deportiva">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://www.carburando.com/images/uploads/images/honda_cbr1000rr_fireblade.jpg" class="d-block w-100" alt="Foto de moto deportiva">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       
     </main>
-    
-    <div class="footer">
-        <div class="footerA">
-            <div class="socials">
-                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footerA">
+                <div class="socials">
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#">
+                    <h4> Términos y Condiciones &nbsp;&nbsp;Politica de pivacidad</h4>
+                </a>
+                <h4> Copyright© 2023 &nbsp;&nbsp; Córdoba, Argentina </h4>
             </div>
-            <h4> Copyright© 2023  &nbsp;&nbsp; Córdoba, Argentina </h4> 
-            <h4> mundomotoargentina@hotmail.com </h4>
-             <h4> Términos y Condiciones &nbsp;&nbsp;Politica de pivacidad</h4>
         </div>
-    </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
 
-   </body>
 </html>
-
-
-

@@ -281,18 +281,18 @@ nav{
     top: 0;
     left: 0;
     width: 96.5%;
-    height: 85%;
+    height: 48%;
 }
 
 .iframe-container {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%; 
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
 }
 
-.video{
-    margin-left: 1.5%;
-}
 
 @media (max-width: 1040px){
     .categoria-cuadro{
@@ -304,17 +304,20 @@ nav{
         position: absolute;
         top: 0;
         left: 0;
-        width: 94.5%;
+        width: 92.5%;
         height: 85%;
     }
     
     .iframe-container {
         position: relative;
         overflow: hidden;
-        padding-top: 56.25%; 
+        padding-top: 56.25%;
+        margin-left: 4%; 
     }
-    .video{
+
+    .img-contenedor{
         margin-left: 3%;
+        width: 94.5%;
     }
 }
 
@@ -323,11 +326,15 @@ nav{
         position: absolute;
         top: 0;
         left: 0;
-        width: 92%;
+        width: 89%;
         height: 85%;
     }
     .video{
+        margin-left: 1%;
+    }
+    .img-contenedor{
         margin-left: 3%;
+        width: 92%;
     }
 }
 
