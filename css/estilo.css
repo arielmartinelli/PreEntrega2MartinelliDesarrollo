@@ -382,21 +382,87 @@ nav{
 /*CONTACTO*/
 
 .contacto img{
-    width: 70%;
+    width: 72%;
     border-radius: 10px;
     margin-top: 20%;
-    margin-left: 15%;
+    margin-left: 20%;
 }
 
 .contacto-form{
     margin-top: 20%;
     margin-right: 20%;
-    color: rgb(1, 0, 0);
-}
-
-.contacto-form{
-    background-color: white;
-    padding: 2%;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.621);
+    background-color: rgb(26, 24, 24);
+    padding: 4%;
     border-radius: 10px;
 }
 
+@media (max-width: 769px) {
+    .contacto-form{
+        margin-left: 20%;
+    }
+}
+@media (max-width: 1040px) {
+    .contacto-form{
+        margin-left: 20%;
+    }
+}
+
+.contacto-form h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contacto-form label{
+    padding-top: 2%;
+}
+
+.contacto-form textarea{
+    width: 100%;
+    border-radius: 7px;
+}
+
+.botones-contacto button{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 38%;
+    padding: 1.5%;
+    border-radius: 25px;
+    font-size: medium;
+    margin-left: 1.5%;
+    border: none;
+}
+
+
+
+.botones-contacto button:hover{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+
+@media (max-width: 1040px){
+    .img-contacto img{
+        display: none;
+    }
+}
+
+@media (max-width: 1040px){
+    .botones-contacto button{
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        width: 35%;
+        padding: 1.5%;
+        border-radius: 25px;
+        font-size: medium;
+        margin-left: 1.5%;
+        border: none;
+        left: ;
+    }
+    .botones-contacto{
+        margin-left: 19%;
+    }
+}
