@@ -249,6 +249,89 @@ nav{
     border-color: rgb(210, 80, 80) ;
 }
 
+/*ADVENTUR*/
+
+.categoria-cuadro{
+    margin-top: 30%;
+    border: outset 2px white;
+    background-color: rgb(26, 24, 24) ;
+}
+
+.cate-titulos{
+    background-color: red;
+    margin-top:3%;
+    padding: 1% 1% 0% 2%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px black;
+}
+
+.categoria-cuadro p{
+    color: white;
+    padding: 2%;
+}
+
+.categoria-cuadro ul{
+    color: white;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96.5%;
+    height: 85%;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; 
+}
+
+.video{
+    margin-left: 1.5%;
+}
+
+@media (max-width: 1040px){
+    .categoria-cuadro{
+        margin-top: 10%;
+        margin-right:3% ;
+        margin-left: 3%;
+    }
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 94.5%;
+        height: 85%;
+    }
+    
+    .iframe-container {
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%; 
+    }
+    .video{
+        margin-left: 3%;
+    }
+}
+
+@media (max-width: 930px){
+    .iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 92%;
+        height: 85%;
+    }
+    .video{
+        margin-left: 3%;
+    }
+}
+
+
 /*NOTICIAS*/
 
 .noticias .card{
@@ -460,7 +543,6 @@ nav{
         font-size: medium;
         margin-left: 1.5%;
         border: none;
-        left: ;
     }
     .botones-contacto{
         margin-left: 19%;
