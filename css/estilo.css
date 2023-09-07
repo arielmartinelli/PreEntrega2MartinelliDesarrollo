@@ -21,7 +21,7 @@ body{
     font-family: 'Staatliches';
     font-style: oblique;
     letter-spacing: 2px;
-    font-size: 4vw;
+    font-size: 4rem;
     text-shadow: 1px 1px 2px black;
     color: white;
 }
@@ -52,7 +52,7 @@ svg{
   }
 
 header img{
-    width: 6vw;
+    width: 30%;
 }
 
 .dropdown-menu a{
@@ -61,12 +61,14 @@ header img{
 
 @media (min-width: 769px){
     .dropdown-menu a{
-        font-size: medium;
+        font-size: xx-large;
     }
+    
 }
 
+
 nav ul{
-    font-size: 1.4vw;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
@@ -127,7 +129,22 @@ nav{
 
 
 
+@media (min-width: 769px){
+    nav ul a{
+        font-size: x-large;
+    }
+}
+
 /*Carrusel*/
+
+@media (max-width:624px){
+    .carousel-inner{
+        margin-top: 20%;
+    }
+    .logo-a{
+        display: none;
+    }
+}
 
 .carousel{
     margin-top: 8%;
