@@ -104,9 +104,53 @@ body{
 
 /*FOOTER*/
 
+
 .footer{
-    background-color: red;
-    margin-top: 1%;
+    background-color: rgb(22, 14, 14);
+}
+
+.lista-linea{
+    list-style: none;
+}
+
+.lista-linea li{
+    display: inline; 
+  margin-right: .3rem;
+  font-weight: 600;
+}
+
+.lista-linea a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.sociales{
+    text-align: right;
+}
+
+.soc{
+    cursor: pointer;
+}
+
+.copy{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:1040px){
+    .sociales{
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .left{
+        text-align: center;
+    }
+    .lista-linea a{
+        font-size: 1rem;
+    }
 }
 
 /*CATEGORIAS*/
