@@ -78,10 +78,6 @@ body{
 /*Carrusel*/
 
 
-.carousel{
-    margin-top: 8rem;
-}
-
 .carousel-inner h5{
     text-shadow: 2px 2px 2px black;
     font-size: 2vw; 
@@ -94,6 +90,10 @@ body{
 .carousel-inner a{
     text-decoration: none;
     color: red;
+}
+
+.index {
+    margin-top: 6.5em;
 }
 
 /*ANUNCIO*/
@@ -220,6 +220,11 @@ body{
     margin-left: 14%;
     text-align: center;
     cursor: pointer;
+    overflow: hidden;
+}
+
+.cate img:hover{
+    -webkit-transform:scale(2);transform:scale(1.1);
 }
 
 @media (max-width:750px){
@@ -257,13 +262,14 @@ body{
     border-color: rgb(210, 80, 80) ;
 }
 
-/*ADVENTUR*/
+/*CATEGORIAS XXX*/
 
 .categoria-cuadro{
-    margin-top: 30%;
+    margin-top: 7rem;
     border: outset 2px white;
     background-color: rgb(26, 24, 24) ;
 }
+
 
 .cate-titulos{
     background-color: red;
@@ -289,24 +295,29 @@ body{
     top: 0;
     left: 0;
     width: 96.5%;
-    height: 48%;
+    height: 100%;
 }
 
 .iframe-container {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%; 
+    padding-top: 1%; 
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 3%;
 }
 
+.carousel{
+    margin-top: 2.4rem;
+}
+
 
 @media (max-width: 1040px){
     .categoria-cuadro{
-        margin-top: 10%;
+        margin-top: 5%;
         margin-right:3% ;
         margin-left: 3%;
+        font-size: 1.5rem;
     }
     .iframe-container iframe {
         position: absolute;
@@ -327,6 +338,14 @@ body{
         margin-left: 3%;
         width: 94.5%;
     }
+    
+    .titulo{
+        margin-top: 7rem;
+    }
+
+    .cate-titulos{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 930px){
@@ -344,6 +363,11 @@ body{
         margin-left: 3%;
         width: 92%;
     }
+    
+}
+
+.publi-cate{
+    width: 95.5%;
 }
 
 
