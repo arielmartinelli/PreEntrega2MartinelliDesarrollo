@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-* 
+
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -250,7 +250,7 @@ body{
 .cate .card .btn{
     background-color: red;
     border-color: red;
-    width: 25%;
+    width: 55%;
     height: 15%;
     box-shadow: 1px 1px 4px black;
     text-transform: uppercase;
@@ -313,11 +313,16 @@ body{
 
 
 @media (max-width: 1040px){
+    .contenedor-adventur{
+        display: flex;
+        
+    }
+
     .categoria-cuadro{
         margin-top: 5%;
         margin-right:3% ;
         margin-left: 3%;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .iframe-container iframe {
         position: absolute;
@@ -343,8 +348,12 @@ body{
         margin-top: 7rem;
     }
 
-    .cate-titulos{
-        font-size: 1.5rem;
+    .cate-titulos h3{
+        font-size: 2rem;
+    }
+
+    .carousel{
+        margin-top: .5rem;
     }
 }
 
@@ -510,3 +519,8 @@ body{
         margin-left: 19%;
     }
 }
+
+.container-fluid, .row{
+    margin-right: 0;
+
+    }
