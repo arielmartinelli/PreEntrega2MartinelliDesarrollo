@@ -66,10 +66,10 @@ body{
 
 @media (max-width:768px){
     .navbar-brand{
-        margin-left:7.3rem ;
+        margin-left:25% ;
     }
     .navbar-brand{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -230,9 +230,8 @@ body{
 @media (max-width:750px){
     .cate .card{
         width: 50%;
-        margin-left: 8rem;
-    }
-    
+        margin-left: 25%;
+    } 
 }
 
 .cate .card img{
@@ -455,12 +454,12 @@ body{
 
 @media (max-width: 769px) {
     .contacto-form{
-        margin-left: 20%;
+        margin-left: 25%;
     }
 }
 @media (max-width: 1040px) {
     .contacto-form{
-        margin-left: 20%;
+        margin-left: 25%;
     }
 }
 
