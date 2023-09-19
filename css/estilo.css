@@ -1,11 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Exo+2:ital,wght@1,300&family=Lato&family=Roboto:wght@300;400&family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&family=Lato&family=Roboto:wght@300;400&family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2? family= Lato & family= Roboto:wght@300;400 & family= Staatliches & display=swap");
-@font-face {
-  font-family: "Noize Sport";
-  src: url(/fuentes/NoizeSportFreeVertion-Regular.ttf);
-}
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +16,7 @@ body {
 /*HEADER*/
 /*NAV*/
 .navbar-brand {
-  font-family: "Noize Sport";
+  font-family: "Audiowide";
   font-style: oblique;
   letter-spacing: 2px;
   font-size: 4rem;
@@ -79,12 +76,12 @@ body {
 }
 /*Carrusel*/
 .index {
-  margin-top: 9.5%;
+  margin-top: 9.6%;
 }
 
 @media (max-width: 1000px) {
   .index {
-    margin-top: 15%;
+    margin-top: 19%;
   }
 }
 .carousel-inner h5 {
@@ -138,15 +135,15 @@ body {
 }
 @media (max-width: 650px) {
   .texto-grande h6 {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
   .texto-grande {
     width: 100%;
   }
 }
 .novedades h2 {
-  font-family: "Noize Sport";
-  font-size: 3rem;
+  font-family: "Audiowide";
+  font-size: 3.5rem;
   color: white;
   text-align: center;
 }
@@ -268,7 +265,7 @@ p {
 }
 
 .titulo-categoria h3 {
-  font-family: "Noize Sport";
+  font-family: "Audiowide";
   color: white;
   padding: 1%;
   margin: 120px 0px 30px 0px;
@@ -279,9 +276,9 @@ p {
 
 .cate .card {
   box-shadow: 5px 5px 5px rgb(22, 2, 2);
-  width: 70%;
+  width: 85%;
   margin-bottom: 5%;
-  margin-left: 14%;
+  margin-left: 8%;
   text-align: center;
   cursor: pointer;
 }
@@ -294,8 +291,8 @@ p {
 
 @media (max-width: 750px) {
   .cate .card {
-    width: 50%;
-    margin-left: 25%;
+    width: 90%;
+    margin-left: 6%;
   }
 }
 .cate .card img {
@@ -443,9 +440,9 @@ p {
   text-align: center;
 }
 
-h6 {
+.noticias h6 {
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 1.5rem;
 }
 
 .noticias .card img {
@@ -453,13 +450,22 @@ h6 {
 }
 
 .card-p6 {
-  font-size: 1.2vw;
+  font-size: 1rem;
   font-weight: bold;
 }
 
+@media (max-width: 765px) {
+  .card-text {
+    display: none;
+  }
+  .card-p6 {
+    font-size: 1.5rem;
+  }
+}
 .noticias a {
   text-decoration: none;
   color: black;
+  font-size: 2rem;
 }
 
 .noticias a:hover {
@@ -493,14 +499,17 @@ h6 {
   border-radius: 10px;
 }
 
-@media (max-width: 769px) {
-  .contacto-form {
-    margin-left: 25%;
-  }
-}
 @media (max-width: 1040px) {
   .contacto-form {
-    margin-left: 25%;
+    margin-top: 20%;
+    margin-right: 5%;
+    margin-left: 7%;
+    margin-bottom: 2%;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.621);
+    background-color: rgb(26, 24, 24);
+    padding: 4%;
+    border-radius: 10px;
   }
 }
 .contacto-form h2 {
@@ -521,7 +530,7 @@ h6 {
   background-color: red;
   color: white;
   font-weight: bold;
-  width: 38%;
+  width: 48%;
   padding: 1.5%;
   border-radius: 25px;
   font-size: medium;
@@ -538,22 +547,6 @@ h6 {
 @media (max-width: 1040px) {
   .img-contacto img {
     display: none;
-  }
-}
-@media (max-width: 1040px) {
-  .botones-contacto button {
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    width: 35%;
-    padding: 1.5%;
-    border-radius: 25px;
-    font-size: medium;
-    margin-left: 1.5%;
-    border: none;
-  }
-  .botones-contacto {
-    margin-left: 19%;
   }
 }
 .container-fluid, .row {
