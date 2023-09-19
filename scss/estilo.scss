@@ -12,8 +12,25 @@
 
 @import url('https://fonts.googleapis.com/css2? family= Lato & family= Roboto:wght@300;400 & family= Staatliches & display=swap');
 
+
 $fuente-subtitulo: 'Noize Sport';
+
 $color-principal: rgba(44, 43, 46);
+
+@mixin estilo-box-sub{
+    background-color: red;
+    text-align: center;
+}
+
+@mixin estilo-subtitulos{
+    font-family: 'Noize Sport';
+    color: white;
+    padding: 1%;
+    margin: 120px 0px 30px 0px;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(13, 0, 0);
+}
 
 *{
     margin: 0;
@@ -23,7 +40,7 @@ $color-principal: rgba(44, 43, 46);
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: black;
+    background-image: radial-gradient(rgb(200, 20, 20), black);
 }
 
 /*HEADER*/
@@ -97,7 +114,7 @@ body{
 /*Carrusel*/
 
 .index{
-  margin-top:10%;
+  margin-top:9.5%;
 }
 
 @media(max-width:1000px){
@@ -205,6 +222,7 @@ body{
     background-color:$color-principal;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
+    border-bottom: solid 1px rgb(60, 56, 56);
 }
 
 .patrocinadores{
@@ -216,7 +234,7 @@ body{
 
 .patrocinadores p{
   font-family:"Exo 2" ;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   text-align: center;
 }
@@ -231,18 +249,18 @@ body{
     list-style: none;
 }
 
-.lista-linea li{
+     li{
     display: inline; 
   margin-right: .3rem;
   font-weight: 600;
-}
+    }
 
-.lista-linea a{
+     a{
     text-decoration: none;
     color: white;
     letter-spacing: 1px;
     font-size: 1.2rem;
-}
+    }
 
 .sociales{
     text-align: right;
@@ -250,19 +268,36 @@ body{
 
 .soc{
     cursor: pointer;
+    animation: salto 0.5s infinite alternate;
 }
 
+.soc:hover{
+    color: red;
+}
+
+@keyframes salto {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
 
 .copy{
-    background-color: transparent;
+    background-color: $color-principal;
     text-align: center;
     color: white;
 }
+    p{
+        margin-bottom: 0px;
+        padding-bottom: 1rem;
+    }
 
 @media (max-width:1040px){
     .sociales{
         text-align: center;
-        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
     .left{
         text-align: center;
@@ -275,21 +310,15 @@ body{
     }
 }
 
+
 /*CATEGORIAS*/
 
 .titulo-categoria{
-    background-color: red;
-    text-align: center;
+    @include estilo-box-sub()
 }
-
 .titulo-categoria h3{
-    color: white;
-    padding: 1%;
-    margin: 120px 0px 30px 0px;
-    font-size: 50px;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 2px rgb(13, 0, 0);
-}
+        @include estilo-subtitulos()
+    }
 
 .cate .card{
     box-shadow: 5px 5px 5px  rgb(22, 2, 2);
@@ -298,11 +327,11 @@ body{
     margin-left: 14%;
     text-align: center;
     cursor: pointer;
-    overflow: hidden;
 }
 
 .cate img:hover{
     -webkit-transform:scale(2);transform:scale(1.1);
+    transition-duration: 1s;
 }
 
 @media (max-width:750px){
@@ -471,11 +500,10 @@ body{
 .noticias{
     text-align: center;
 }
-
-.noticias h6{
+    h6{
     font-weight: bold;
     font-size: 1.5vw;
-}
+    }
 
 .noticias .card img{
     width: 100%;
