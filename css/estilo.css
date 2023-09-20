@@ -28,7 +28,7 @@
 }
 
 .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.039);
+  background-color: rgba(0, 0, 0, 0.379);
   border: none;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .carousel {
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 /*ANUNCIO*/
@@ -140,7 +140,7 @@ body {
 }
 .novedades p {
   color: white;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-style: oblique;
   text-align: center;
 }
@@ -217,10 +217,7 @@ body {
 }
 
 /*CATEGORIAS VARIAS*/
-.dif-categorias .carousel-inner {
-  margin-top: 10rem;
-}
-.dif-categorias .card {
+main .card {
   box-shadow: 4px 4px 6px black;
 }
 
@@ -242,6 +239,13 @@ body {
 .dif-categorias-img img {
   border-radius: 10px;
   box-shadow: 4px 0px 6px black;
+}
+.dif-categorias-img .carousel {
+  margin-top: 0.5rem;
+}
+
+.carousel .card {
+  margin-top: 7rem;
 }
 
 @media (max-width: 1040px) {
