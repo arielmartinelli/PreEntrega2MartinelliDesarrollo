@@ -145,6 +145,10 @@ body {
   text-align: center;
 }
 
+.carousel .novedades-carrusel .card {
+  margin-top: 1rem;
+}
+
 .carousel p {
   color: rgb(7, 0, 0);
   font-size: 1.5rem;
@@ -223,12 +227,13 @@ main .card {
 
 .card-body-cate .card-title {
   font-family: "Audiowide";
-  font-size: 5vw;
+  font-size: 5.5vw;
   color: red;
 }
 .card-body-cate p {
   font-family: "Exo 2", sans-serif;
   padding: 0% 2% 0% 2%;
+  font-size: 1.5rem;
 }
 .card-body-cate li {
   font-family: "Exo 2", sans-serif;
@@ -250,6 +255,9 @@ main .card {
 
 @media (max-width: 1040px) {
   .card-body-cate li {
+    font-size: 3vw;
+  }
+  .card-body-cate p {
     font-size: 3vw;
   }
   .lado-2 {
@@ -281,7 +289,7 @@ main .card {
 }
 
 @media (max-width: 765px) {
-  .card-text {
+  .noticias .card-text {
     display: none;
   }
   .card-p6 {
