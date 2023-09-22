@@ -68,7 +68,7 @@
     width: 80%;
   
     h6 {
-      font-family: 'Exo 2', sans-serif;
+      font-family: "Exo 2";
       font-size: 4.5rem;
       color: black;
       text-transform: uppercase;
@@ -202,13 +202,14 @@
   main{
     .card{
         box-shadow: 4px 4px 6px black;
+        background-color: rgb(202, 200, 200);
     }
   }
 
   .card-body-cate{
     .card-title{
         font-family: $fuente-subtitulo;
-        font-size: 5.5vw;
+        font-size: 7vw;
         color: red;
     }
     p{
@@ -228,23 +229,21 @@
         border-radius: 10px;
         box-shadow: 4px 0px 6px black;
     }
-    .carousel{
-        margin-top: .5rem;
-    }
+    
   }
 
   .carousel .card{
-    margin-top: 7rem;
+    margin-top: .5rem;
   }
  
   
   @media (max-width:1040px){
     .card-body-cate li{
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
 
     .card-body-cate p{
-        font-size: 3vw;
+        font-size: 4.5vw;
     }
     
     .lado-2{

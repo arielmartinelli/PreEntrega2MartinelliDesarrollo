@@ -108,7 +108,7 @@ body {
   width: 80%;
 }
 .texto-grande h6 {
-  font-family: "Exo 2", sans-serif;
+  font-family: "Exo 2";
   font-size: 4.5rem;
   color: black;
   text-transform: uppercase;
@@ -223,11 +223,12 @@ body {
 /*CATEGORIAS VARIAS*/
 main .card {
   box-shadow: 4px 4px 6px black;
+  background-color: rgb(202, 200, 200);
 }
 
 .card-body-cate .card-title {
   font-family: "Audiowide";
-  font-size: 5.5vw;
+  font-size: 7vw;
   color: red;
 }
 .card-body-cate p {
@@ -245,20 +246,17 @@ main .card {
   border-radius: 10px;
   box-shadow: 4px 0px 6px black;
 }
-.dif-categorias-img .carousel {
-  margin-top: 0.5rem;
-}
 
 .carousel .card {
-  margin-top: 7rem;
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 1040px) {
   .card-body-cate li {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
   .card-body-cate p {
-    font-size: 3vw;
+    font-size: 4.5vw;
   }
   .lado-2 {
     display: none;
