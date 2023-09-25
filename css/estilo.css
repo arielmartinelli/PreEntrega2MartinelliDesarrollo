@@ -107,8 +107,9 @@ body {
 .texto-grande {
   width: 80%;
 }
+
 .texto-grande h6 {
-  font-family: "Exo 2";
+  font-family: "Audiowide";
   font-size: 4.5rem;
   color: black;
   text-transform: uppercase;

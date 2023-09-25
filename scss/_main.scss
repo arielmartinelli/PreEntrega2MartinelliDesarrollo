@@ -66,15 +66,15 @@
   
   .texto-grande {
     width: 80%;
-  
-    h6 {
-      font-family: "Exo 2";
-      font-size: 4.5rem;
-      color: black;
-      text-transform: uppercase;
-      font-weight: 600;
-      padding-left: 1rem;
-    }
+  }
+
+  .texto-grande h6{
+    font-family: 'Audiowide';
+    font-size: 4.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 1rem;
   }
   
   @media (max-width: 965px) {
