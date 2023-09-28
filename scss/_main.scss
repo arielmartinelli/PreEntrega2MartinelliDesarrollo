@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
   }
+
+
   
   body {
     font-family: 'Lato', sans-serif;
@@ -132,6 +134,13 @@
     .carousel p {
       font-size: .8rem;
     }
+    
+  }
+
+  @media (max-width: 750px) {
+    .novedades h2 {
+      font-size: 2.5rem;
+    }
   }
   
   /*CATEGORIAS*/
@@ -239,11 +248,11 @@
   
   @media (max-width:1040px){
     .card-body-cate li{
-        font-size: 4.5vw;
+        font-size: 3vw;
     }
 
     .card-body-cate p{
-        font-size: 4.5vw;
+        font-size: 3vw;
     }
     
     .lado-2{

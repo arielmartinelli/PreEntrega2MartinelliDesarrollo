@@ -161,6 +161,11 @@ body {
     font-size: 0.8rem;
   }
 }
+@media (max-width: 750px) {
+  .novedades h2 {
+    font-size: 2.5rem;
+  }
+}
 /*CATEGORIAS*/
 .titulo-categoria {
   background-color: red;
@@ -254,10 +259,10 @@ main .card {
 
 @media (max-width: 1040px) {
   .card-body-cate li {
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .card-body-cate p {
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
   .lado-2 {
     display: none;
